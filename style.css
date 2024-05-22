@@ -1,0 +1,404 @@
+nav, article, header{
+    background-color: #222222;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    margin-top: 16px;
+    margin: 0;
+    padding: 0;
+
+}
+nav ul li{
+    list-style: none;
+cursor: pointer;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+nav ul li:hover{
+filter: opacity(70%);
+    cursor: pointer;
+}
+header nav span:hover{
+    cursor: pointer;
+    color: rgb(221, 219, 219);
+}
+main .first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+main .first .content{
+    text-align: center;
+width: 441px;
+font-size: 20px;
+margin-top: 5px;
+}
+main .one{
+    display: flex;
+    align-self: first baseline;
+    flex-direction: column;
+}
+#learn{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+main .first .buttons{
+display: flex;
+gap: 10px 20px;
+height: 70px;
+margin-top: 30px;
+}
+.buttons .download-now{
+    font-size: 20px;
+font-weight: 700;
+}
+.buttons .abc{
+    font-size: 13px;
+font-weight: 300;
+
+}
+.buttons .btn-1{
+    border: none;
+border-radius: 4px;
+padding: 10px;
+height: 58px;
+width: 210px;
+background-color: #00B6CD;
+color: white;
+}
+.buttons .btn-2{
+    height: 58px;
+font-size: 20px;
+font-weight: 700;
+background-color: black;
+border: 3px solid white;
+color: white;
+width: 210px;
+border-radius: 7px;
+
+}
+.buttons .btn-1:hover{
+    background-color: #0f7785;
+    cursor: pointer;
+    }
+.buttons .btn-2:hover{
+    background-color: rgb(80, 78, 78);
+    cursor: pointer;
+}
+.updates-text{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.main-heading{
+    font-weight: 900;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.stars-part a{
+    text-decoration: none;
+color: #00B6CD;
+color: white;
+text-indent: 35px;
+display: flex;
+margin-top: 10px;
+
+}
+.section101{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+    gap: 30px;
+}
+.stars-part{
+    width: 170px;
+}
+.stars-5{
+font-size: 16px;
+font-weight: 700;
+margin-top: 15px;
+text-indent: 10px;
+}
+.section101 .img{
+    text-indent: 20px;
+}
+.reviews{
+    font-size: 12px;
+ text-indent: 35px;     
+}
+.rated{
+    text-align: center;
+    margin-top: 15px;
+}
+.yellow h2{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.section-3rd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+.electric{
+width: 200px;
+text-align: center;
+display: flex;
+gap: 15px;
+flex-direction: column;
+}
+.windows{
+    width: 200px;
+    text-align: center;
+    display: flex;
+gap: 17px;
+flex-direction: column;
+}
+.devices{
+    width: 200px;
+    text-align: center;
+    display: flex;
+gap: 15px;
+flex-direction: column;
+}
+.multiple-editor{
+text-align: center;
+    width: 205px;
+    display: flex;
+gap: 13px;
+flex-direction: column;
+}
+.forth img{
+    height: 276px;
+    width: 266px;
+    border-radius: 280px;
+    
+}
+.forth .professional-editor{
+width: 400px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+text-align: start;
+}
+
+.forth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+gap: 70px;
+margin-top: 70px;
+}
+.forth button{
+    padding: 15px 40px;
+    width: 260px;
+    font-weight: 700;
+    background-color: yellow;
+    border: none;
+    color: black;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.forth .editors-text{
+    font-size: 17px;
+}
+.forth button:hover{
+    cursor: pointer;
+}
+.fifth{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.fifth .section-420{
+    font-size: 30px;
+    font-weight: 500;
+}
+.content-101{
+    font-size: 25px;
+    width: 758px;
+    text-align: center;
+}
+.sixth{
+    margin-top: 40px;
+}
+.sixth .photos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.sixth .content-of-photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.special-content{
+    width: 150px;
+    text-align: center;
+}
+.download-buttons-01 .btns-5 button{
+    padding: 10px 17px;
+    background-color:#00B6CD;
+    color: white;
+    font-weight: 700;
+    border: none;
+    width: 150px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.download-buttons-01{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.testimonals{
+    font-size: 18px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.seventh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+    
+}
+.seventh .one, .two{
+display: flex;
+gap: 15px;
+flex-direction: column;
+}
+.content-no-1 , .content-2{
+    font-style: italic;
+    width: 449px;
+    line-height: 24px;
+}
+.two .footer-no-3{
+    font-size: 12px;
+}
+.button-try-ue button{
+    padding: 20px 160px;
+    background-color:#00B6CD;
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+.button-try-ue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: rgb(235, 231, 231);
+    padding-top: 40px;
+    border: none;
+}
+footer li{
+    list-style: none;
+}
+footer .lng-1, .user-1, .general-1, .subscribe-heading{
+    font-weight: 800;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+footer .ul-1{
+    line-height: 25px;
+}
+footer .ul-2{
+    line-height: 27px;
+}
+footer .ul-3{
+    line-height: 30px;
+}
+footer .subscribe-content{
+    width: 230px;
+}
+footer input{
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgb(247, 244, 244);
+    margin-top: 10px;
+}
+footer input:focus{
+    box-shadow: 0px 1px 1px 3px #00B6CD;
+    border: 1px solid white;
+    border-radius: 4px;
+    outline: none;
+}
+footer .subscribe .subscribe-btn button{
+    background-color:#00B6CD;
+    padding: 10px 50px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+}
+.last{
+    background-color:rgb(235, 231, 231) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    height: 150px;
+}
+.last .name{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: cursive;
+    font-style: italic;
+}
+.last .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    filter: brightness(90%);
+    
+}
+.icons .img:hover{
+width: 25px;
+height: 33px;
+cursor: pointer;
+}
